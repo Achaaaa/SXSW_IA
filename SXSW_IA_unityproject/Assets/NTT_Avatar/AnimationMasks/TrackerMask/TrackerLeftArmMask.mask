@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TrackerLeftArmMask
+  m_Mask: 00000000000000000000000000000000000000000100000000000000010000000000000000000000000000000100000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Camera
+    m_Weight: 0
+  - m_Path: Camera/Head_
+    m_Weight: 1
+  - m_Path: Controller__left_
+    m_Weight: 1
+  - m_Path: Controller__left_/LeftHand_
+    m_Weight: 1
+  - m_Path: Controller__right_
+    m_Weight: 0
+  - m_Path: Controller__right_/RightHand_
+    m_Weight: 1
+  - m_Path: LeftFootTracker
+    m_Weight: 0
+  - m_Path: LeftFootTracker/LeftFoot_
+    m_Weight: 1
+  - m_Path: RightFootTracker
+    m_Weight: 0
+  - m_Path: RightFootTracker/RightFoot_
+    m_Weight: 1
+  - m_Path: WaistTracker
+    m_Weight: 0
+  - m_Path: WaistTracker/Waist_
+    m_Weight: 1

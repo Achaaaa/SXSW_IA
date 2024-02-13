@@ -1,0 +1,4 @@
+repository "ARSTalkPart@muraken___undefined@cloud"
+  path "/"
+    br "/main"
+    co "/main"
